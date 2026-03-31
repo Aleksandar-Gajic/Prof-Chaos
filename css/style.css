@@ -22,7 +22,7 @@ header .pfp {
   border-radius: 50%;
   background-image: url(./../img/Professor-Chaos-Profile.jpg);
   background-repeat: no-repeat;
-  nackground-position: center;
+  background-position: center;
   background-size: cover;
   margin: 0 auto;
 }
