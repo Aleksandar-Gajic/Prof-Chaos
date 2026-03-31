@@ -32,14 +32,6 @@ a:hover {
   color: #00ff11;
 }
 
-a:active {
-  color: #00341b;
-}
-
-a:visited {
-  color: #788a90;
-}
-
 p.caption {
   font-size: 16px;
   color: rgb(139, 139, 139);
