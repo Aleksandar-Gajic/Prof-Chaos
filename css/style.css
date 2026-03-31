@@ -80,8 +80,9 @@ h2 {
 }
 
 main {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 main img {
@@ -95,7 +96,35 @@ footer {
 }
 
 footer .content {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 20px;
+}
+
+@media (max-width: 600px) {
+  header .pfp {
+    width: 200px;
+    height: 200px;
+    border-width: 10px;
+  }
+
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p,
+  ul,
+  ol {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  footer p {
+    font-size: 14px;
+  }
 }
